@@ -51,6 +51,28 @@ class Main {
      *
      */
 
+    /*
+        Sample input:       Sample Output
+        3                   5
+        5                   2
+                            4
+        16                  12
+        12                  16
+        4                   9
+        2                   3
+        5                   7
+        3                   13
+        7                   3
+        3                   18
+        9                   1
+        5                   5
+        5
+        1
+        18
+        3
+        13
+     */
+
     static void reversePrint(SinglyLinkedListNode head) {
         if (head == null)
             return;
